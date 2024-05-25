@@ -9,4 +9,6 @@ contract CounterScript is Script {
     function run() public {
         vm.broadcast();
     }
+forge script CounterScript --fork-url <`https://eth-mainnet.alchemyapi.io/v2/YOUR-API-KEY`>
+
 }
